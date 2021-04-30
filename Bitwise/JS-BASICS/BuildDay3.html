@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Square Workshop</title>
+</head>
+
+
+
+
+<body>
+ <h1>How to Build a Square</h1>
+
+
+<button onClick="howToBuildASquare()">Build</button>
+   
+   
+   <script>
+
+
+        function howToBuildASquare(){
+        const element = document.createElement('div');
+        document.body.appendChild(element);
+        const size = prompt ('How big?');
+        element.style.height = size + 'px';
+        element.style.backgroundColor = prompt ('What Color?');
+        console.log (size);
+        }
+        howToBuildASquare()
+
+
+
+        //How to set an attribute/property/variable;
+        element.hfref = prompt ('What link?');
+        
+
+
+
+
+    </script>
+</body>
+</html>

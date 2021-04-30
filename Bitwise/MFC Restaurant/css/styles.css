@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+    --primaryColor: #f8f8f8;
+    --secondaryColor: #e5e5e5;
+    --heavyColor: #c4c4c4;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.section_heading {
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 17px;
+}
+/* HEADER */
+header, header .jumbotron {
+    color: #000;
+    background-color: var(--primaryColor);
+}
+header h1 {
+    letter-spacing: 7px;
+}
+header .jumbotron button {
+    color: inherit;
+    background-color: var(--secondaryColor);
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+header .jumbotron p {
+    max-width: 700px;
+}
+/* LOCATIONS */
+#locations {
+    height: 280px;
+}
+.info_text {
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+/* TEXT SECTION */
+.text_wrapper {
+    min-height: 380px;
+}
+.heading {
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+/* MENU/SPECIALS */
+#menu {
+    background-color: var(--secondaryColor);
+}
+.specials_wrapper {
+    height: 280px;
+}
+.menu_plate::after {
+    content: " ......................................................... ";
+}
+img.icon {
+    width: 160px;
+}
+.desktop_wrapper,
+.mobile_wrapper {
+    min-height: 500px;
+}
